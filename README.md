@@ -21,4 +21,44 @@ The goal of this project is to detect brain tumors in MRI images using deep lear
 ---
 
 ## Repository Structure
+brain-tumor-detection/
+├── data/ # Contains the dataset (Training and Testing folders)
+├── models/ # Saved models (e.g., VGG16, EfficientNetB0)
+├── scripts/ # Python scripts for training, evaluation, and Grad-CAM
+│ ├── train.py # Script to train the models
+│ ├── evaluate.py # Script to evaluate the models
+│ └── grad_cam.py # Script to generate Grad-CAM heatmaps
+├── requirements.txt # List of Python dependencies
+└── README.md # This file
 
+---
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/iamdkshah/MLNN_Individual_Project
+   cd MLNN_Individual_Project
+Download the Dataset:
+
+Download the brain tumor dataset and place it in the data/ folder.
+
+The dataset should have the following structure:
+   
+data/
+├── Training/
+│   ├── glioma/
+│   ├── meningioma/
+│   ├── pituitary/
+│   └── no_tumor/
+└── Testing/
+    ├── glioma/
+    ├── meningioma/
+    ├── pituitary/
+    └── no_tumor/
+# Run the following command to train the models:
+python scripts/train.py
+# Evaluate the Models
+python scripts/evaluate.py
+# Generate Grad-CAM Heatmaps
+python scripts/grad_cam.py

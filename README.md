@@ -56,9 +56,4 @@ data/
     ├── meningioma/
     ├── pituitary/
     └── no_tumor/
-# Run the following command to train the models:
-python scripts/train.py
-# Evaluate the Models
-python scripts/evaluate.py
-# Generate Grad-CAM Heatmaps
-python scripts/grad_cam.py
+

@@ -20,29 +20,19 @@ The goal of this project is to detect brain tumors in MRI images using deep lear
 
 ---
 
-## Repository Structure
-brain-tumor-detection/
-├── data/ # Contains the dataset (Training and Testing folders)
-├── models/ # Saved models (e.g., VGG16, EfficientNetB0)
-├── scripts/ # Python scripts for training, evaluation, and Grad-CAM
-│ ├── train.py # Script to train the models
-│ ├── evaluate.py # Script to evaluate the models
-│ └── grad_cam.py # Script to generate Grad-CAM heatmaps
-├── requirements.txt # List of Python dependencies
-└── README.md # This file
-
----
-
+# Brain Tumor Detection Tutorial
+Compares transfer learning models for MRI tumor detection.
+## Setup
+1. Install TensorFlow, NumPy, etc.
+2. Mount Google Drive with brain_tumor.zip.
+3. Run notebook.
+## Dataset
+Brain tumor MRI images (source: [https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri]).
+## License
+MIT
 ## Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/iamdkshah/MLNN_Individual_Project
-   cd MLNN_Individual_Project
-Download the Dataset:
-
 Download the brain tumor dataset and place it in the data/ folder.
-
 The dataset should have the following structure:
    
 data/

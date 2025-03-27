@@ -1,3 +1,3 @@
 1. DOWNLOAD DATASET FROM KAGGLE: https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
-  -Rename the downloaded zip file (archive.zip) to brain_tumor.zip
+  -Rename the downloaded zip file (archive.zip) to brain_tumor.zip and load to Google Colab.
 

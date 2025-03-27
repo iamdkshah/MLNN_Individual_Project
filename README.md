@@ -15,7 +15,7 @@ The goal of this project is to detect brain tumors in MRI images using deep lear
 # Brain Tumor Detection Tutorial
 Compares transfer learning models and Grad-CAM for MRI tumor detection.
 ## Setup
-1. Download MLNN_Individual_Project(4).ipynb (Google Colab Notebook)
+1. Download MLNN_Individual_Project(5).ipynb (Google Colab Notebook)
 2. Open and load this project, install TensorFlow, NumPy, etc., in Colab.
 3. Download the dataset and upload `brain_tumor.zip` to Google Drive.
 4. Run notebook cells.
